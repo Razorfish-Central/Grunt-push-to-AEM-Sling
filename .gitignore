@@ -1,0 +1,45 @@
+*.class
+
+# MAC and unix swap files
+*.swp
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+node_modules
+node_modules/*
+.sass-cache
+.sass-cache/*
+build
+build/*
+
+#IDE specific files
+.project
+.DS_Store
+.settings
+
+#FE local environment watch files
+aem/ui.apps/src/main/content/jcr_root/etc/designs/thrivent/independent/clientlib-all.css
+aem/ui.apps/src/main/content/jcr_root/etc/designs/thrivent/independent/clientlib-all.css.map
+aem/ui.apps/src/main/content/jcr_root/etc/designs/thrivent/independent/clientlib-all.scss
+aem/ui.apps/src/main/content/jcr_root/etc/designs/thrivent/independent/clientlib-site.js
+aem/ui.apps/src/main/content/jcr_root/etc/designs/thrivent/independent/clientlib-dependencies.js
+
+# OS generated files 
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.project
+.classpath
+.settings
+
+#Development Local Settings

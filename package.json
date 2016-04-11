@@ -1,0 +1,17 @@
+{
+  "name": "BASE",
+  "version": "1.0.0",
+  "description": "Base project files for AEM projects that use Maven to execute FE tasks.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Bobek",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "0.x.x",
+    "grunt-contrib-sass": "1.0.0",
+    "grunt-contrib-watch": "0.5.x",
+    "grunt-slang": "SchwaFa/grunt-slang"
+  }
+}
