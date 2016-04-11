@@ -14,7 +14,6 @@ Why would you have to force a Maven build on these FE files?
 2. AEMs clientlibs are being utilized for automatic concatentation and minification of CSS/JS files
 3. You have one build system to cover both FE and BE
 4. You're using SASS
-5. Your FE team wants a watch task to monitor FE file changes and push changed files on the fly
 
 _As a reminder, even if #3 wasn't in play and you wanted to manage front-end builds/tasks with Grunt/Gulp, you still **would not** be able to push FE changes to the clientlib directory as AEM caches these files when initially generated._
 
