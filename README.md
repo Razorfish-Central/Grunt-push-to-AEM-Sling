@@ -3,9 +3,11 @@
 # 
 ***
 ### Purpose
-To ease FE development on AEM projects when FE/BE is working in an integrated codebase and all build/automation tasks are handled by Maven and NOT a FE build/automation tool.
+To ease FE development on AEM projects when FE/BE is working in an integrated codebase and all local build/automation tasks are handled by Maven and NOT a FE build/automation tool.
 
-### Why Do You Need This
+### Why You Might Want This
+You would like to avoid forcing a Maven build for every change to a CSS/JS/HTML file. Why would you have to force a Maven build?
+
 1. Your project is AEM and FE/BE are working in an integrated environment
 2. AEMs clientlibs are being utilized for automatic concatentation and minification
 3. Your team desires one build system to cover both FE and BE
