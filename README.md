@@ -6,7 +6,7 @@
 To ease FE development on AEM projects when FE/BE is working in an integrated codebase and all local build/automation tasks are handled by Maven and NOT a FE build/automation tool.
 
 ### Why You Might Want This
-You would like to avoid forcing a Maven build for every change to a CSS/JS/HTML file.
+You would like to avoid forcing a Maven build for every change to a CSS/JS/HTML file but desire to keep the integrity/clarity of a one-build solution.
 
 Why would you have to force a Maven build on these FE files?
 
