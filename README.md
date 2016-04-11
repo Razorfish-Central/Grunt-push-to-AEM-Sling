@@ -37,15 +37,15 @@ Grunt is now watching for file changes to push to AEM/Sling.
 	* AEM components are HTML files which, like the clientlib files are cached by AEM. As such these files are also watched and pushed to AEM/Sling when modified.
 
 ### What Is Throwaway
-**/AEM/ Directory**
-* The /AEM/ directory within this package is purely an example of what a basic /clientlib/ directory would look like following the build paradigm illustrated here.
+* **/AEM/ Directory**
+	* The /AEM/ directory within this package is purely an example of what a basic /clientlib/ directory would look like following the build paradigm illustrated here.
 
 ### What You Will Need to Modify
-**Paths**
-* 'dependencies' points to your /clientlib-dependencies/ within /clientlib/. This is for 3rd party JS dependencies.
-* 'site' points to your /clientlib-site/ for all custom CSS/JS
-* 'libroot' points to the root of the /clientlib/ folders
-* 'html' points to the root of the /components/ directory where all component markup resides
+* **Paths**
+	* 'dependencies' points to your /clientlib-dependencies/ within /clientlib/. This is for 3rd party JS dependencies.
+	* 'site' points to your /clientlib-site/ for all custom CSS/JS
+	* 'libroot' points to the root of the /clientlib/ folders
+	* 'html' points to the root of the /components/ directory where all component markup resides
 
 ### What You Might Need to Modify
 * **Anything that doesn't map back to your Maven solution**. The most important requirement that this script adheared to was following the same processes that Maven/AEM are following. Grunt isn't required to Maven/AEM and vice versa. They are not following different processes to achieve the same effect. They are doing the _exact_ same thing. As such, adding this script to your AEM project requires _up-front_ planning and coordination with your BE lead.
