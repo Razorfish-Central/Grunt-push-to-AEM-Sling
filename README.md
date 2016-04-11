@@ -28,7 +28,7 @@ Grunt is now watching for file changes to push to AEM/Sling.
 
 ### What Exactly Does This Do?
 * JS
-	* JS is developed in partial files within the /js/ folder in the clientlib-site directory. The JS files here, as well as the third-party libraries within clientlib-depenedncies, are individually pushed to AEM/Sling when each file is modified. AEM subsequently concatenates, minifies and renders.
+	* JS is developed in partial files within the /js/ folder in the /clientlib-site/ directory. The JS files here, as well as the third-party libraries within /clientlib-depenedncies/, are individually pushed to AEM/Sling when each file is modified. AEM subsequently concatenates, minifies and renders.
 * CSS
 	* This script assumes SASS. As such, each partial SCSS file is developed within the /css/ folder inside the clientlib-site directory. These partial files are individually imported into a file called styles.scss, compiled into a temporary 'styles.css' file in the root of the /clientlib-site/ folder and pushes this to Sling. _It's important to note that Maven follows the exact same process to get these files to Sling._
 * TXT
