@@ -37,6 +37,7 @@ module.exports = function (grunt) {
             author: {
                 files: ['<%= paths.site %>/style.css','<%= paths.site %>/js/*.js',
                 '<%= paths.site %>/js.txt',
+                '<%= paths.site %>/img/*',
                 '<%= paths.site %>/css.txt',
                 '<%= paths.dependencies %>/js/*.js',
                 '<%= paths.dependencies %>/js.txt',
